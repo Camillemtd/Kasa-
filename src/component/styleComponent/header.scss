@@ -1,0 +1,27 @@
+$color : #FF6060;
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: $color;
+}
+ul{
+    margin-right: 10px;
+    list-style: none;
+    cursor: pointer;
+    
+
+    li{
+        display: inline-block;
+        margin-right: 10px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: $color;
+        
+    }
+}
+
+a:active{
+    text-decoration: underline;
+}
