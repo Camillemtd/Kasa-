@@ -1,0 +1,25 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgContener{
+    display: flex;
+    width: 90%;
+    background-color: black;
+    mix-blend-mode:darken;
+    border-radius: 10px;
+    
+    .aboutImg{
+        width: 100%;
+        border-radius: 10px;
+        background-color: black;
+        opacity: 0.6;
+    }
+}
+.aboutContainer{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,49 @@
+.aboutBar{
+    position: relative;
+    color: white;
+    position: relative;
+    background-color: #FF6060;
+    margin: 0;
+    border-radius: 5px;
+    padding: 10px;
+    font-size:13px ;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+.aboutCard{
+    margin-bottom: 20px;
+
+    p{
+        position: relative;
+        margin: 0;
+        margin-top: -10px;
+        background-color: #F6F6F6;
+        color: #FF6060;
+        margin-bottom: 20px;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 25px 7px 40px 7px;
+        animation: scale-up-ver-top 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        z-index: 2;
+    }
+}
+
+
+
+@keyframes scale-up-ver-top {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+    }
+  }
+  
