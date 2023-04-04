@@ -1,0 +1,47 @@
+.descriptionWrapper{
+    display: flex;
+    flex-direction: column;
+    .descriptionTitle{
+        position: relative;
+        background-color: #ff6060;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 0px 10px 0px 10px;
+        margin: 0;
+        margin-top: 20px;
+        z-index: 2;
+    }
+    i{
+        margin-top: 8px;
+    }
+    .description{
+        position: relative;
+        margin: 0;
+        margin-top: -10px;
+        padding: 30px 10px;
+        background-color: #F6F6F6;
+        font-size: 0.7rem;
+        z-index: 1;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        min-height: 80px;
+    }
+}
+@media screen and (min-width: 767px) {
+   .descriptionWrapper{
+        width: 35vw;
+    .descriptionTitle{
+        font-size: 18px;
+        padding: 5px;
+    }
+        .description{
+            font-size: 14px;
+        }
+
+   }
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Header from '../component/Header';
 import img from "../assets/home.png"
 import "./stylesPages/home.scss"
@@ -11,7 +12,7 @@ const Home = () => {
         
               
     return (
-        <>
+        <div className='homeWrapper'>
             <Header/>
             <main className='home'>
                 <div className='containerImgHome'>
@@ -21,13 +22,13 @@ const Home = () => {
                 <article className='cardContainer'>
                     {datakasa.map(e => {
                         return(
-                            <LocationCard cover={e.cover} title={e.title} key={e.id}/>
+                           <Link to="/logement" state={{some : e }}  key={e.id}> <LocationCard cover={e.cover} title={e.title} key={e.id}/></Link>
                         )
                     })}
                 </article>
             </main>
             <Footer/>
-        </>
+        </div>
     );
 };
 

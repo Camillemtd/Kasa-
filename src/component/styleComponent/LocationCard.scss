@@ -23,3 +23,13 @@
         margin: 0px;
     }
 }
+
+@media screen and (min-width: 767px){
+    .cardLocation{
+       height: 340px;
+
+       img{
+        height: 340px;
+       }
+    }
+}
