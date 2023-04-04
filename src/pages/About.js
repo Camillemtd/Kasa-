@@ -9,7 +9,7 @@ const About = () => {
     
 
     return (
-        <>
+        <div className='aboutwrapper'>
             <Header/>
             <div className='about'>
                 <div className='imgContener'>
@@ -25,7 +25,7 @@ const About = () => {
                 </article>
             </div>
             <Footer/>
-        </>
+        </div>
     );
 };
 

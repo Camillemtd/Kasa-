@@ -1,0 +1,49 @@
+.equipmentWrapper{
+    .equipmentList{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        font-weight: 400;
+        margin-top: -10px;
+        padding: 30px 10px;
+        background-color: #F6F6F6;
+        font-size: 0.7rem;
+        z-index: 1;
+        text-decoration: none;
+        font-size: 12px;
+        min-height: 80px;
+        
+    }
+    .equipmentTitle{
+        position: relative;
+        background-color: #ff6060;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 0px 10px 0px 10px;
+        margin: 0;
+        margin-top: 20px;
+        z-index: 2;
+    }
+    i{
+        margin-top: 7px;
+    }
+   
+}
+@media screen and (min-width: 767px) {
+    .equipmentWrapper{
+        width: 35vw;
+        .equipmentTitle{
+            font-size: 18px;
+            padding: 5px;
+        }
+        .equipmentList{
+            font-size: 14px;
+        }
+    }
+    
+ }

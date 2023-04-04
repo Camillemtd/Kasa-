@@ -1,3 +1,4 @@
+
 .about{
     display: flex;
     flex-direction: column;
@@ -16,10 +17,16 @@
         border-radius: 10px;
         background-color: black;
         opacity: 0.6;
+        max-height: 223px;
+        object-fit: cover;
     }
 }
 .aboutContainer{
     width: 90%;
     margin-top: 20px;
     margin-bottom: 100px;
+}
+
+@media screen and (min-width: 767px){
+    
 }

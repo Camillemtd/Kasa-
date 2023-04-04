@@ -1,0 +1,114 @@
+.logement{
+    
+
+    h2{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .logementMargin{
+        margin: 20px;
+    }
+}
+.logementWrapper{
+    display: flex;
+    flex-direction: column;
+    color: #ff6060;
+    
+   
+    
+    p{
+        margin: 0;
+    }
+    .pictureHost{
+        border-radius: 200px;
+    }
+    .ratingWrapper{
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-between;
+        
+        .fa-star{
+            margin-right: 8px;
+        }
+        img{
+            max-width: 40px;
+        }
+        .nameHost{
+            margin-top: 8px;
+            margin-right: 10px;
+            text-align: end;
+            
+            
+        }
+        .rating{
+            margin-top: 8px;
+            white-space: nowrap;
+            text-align: end;
+            
+        }
+        .hostWrapper{
+            display: flex;
+            
+        }
+
+    }
+}
+.collapseWrapper{
+    color: #ff6060;
+}
+.fa-solid{
+    cursor: pointer;
+}
+
+
+.starRed{
+    color: #ff6060;
+}
+.starGrey{
+    color: #E3E3E3;
+}
+
+@media screen and (min-width: 767px) {
+    .logement{
+        
+
+        h2{
+            font-size: 36px;
+        }
+        .location{
+            font-size: 18px;
+        }
+        .logementMargin{
+            margin: 80px;
+        }
+    }
+    .logementWrapper{
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .ratingWrapper{
+            flex-direction: column-reverse;
+            width: 20%;
+            justify-content: center;
+            margin: 0;
+        }
+        .hostWrapper{
+            margin-bottom: 20px;
+            justify-content: end;
+
+        }
+        
+    }
+    .collapseWrapper{
+        
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        
+    }  
+}
+
+   
