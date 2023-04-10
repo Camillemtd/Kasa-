@@ -3,7 +3,7 @@ import './styleComponent/equipements.scss'
 
 const Équipements = ({equipments}) => {
     
-    const [openÉquipements, setOpenÉquipements] = useState(true)
+    const [openÉquipements, setOpenÉquipements] = useState(false)
     return openÉquipements ? (
         <div className='equipmentWrapper'>
             <h2 className='equipmentTitle'>Équipements <i className="fa-solid fa-chevron-up" onClick={() =>setOpenÉquipements(false)}/> </h2>
