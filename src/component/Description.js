@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './styleComponent/description.scss'
 
 const Description = ({description}) => {
-    const [openDescription, setOpenDescription] = useState(true)
+    const [openDescription, setOpenDescription] = useState(false)
     return openDescription ? (
         <div className='descriptionWrapper'>
             <h2 className='descriptionTitle'>Description <i className="fa-solid fa-chevron-up" onClick={() =>setOpenDescription(false)}/></h2>
